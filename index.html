@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="ja">
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"> 
- </script>
+     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script></script>
 
     <head>
         <meta charset="utf-8" />
@@ -26,9 +26,10 @@
 
         
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav" style="border: 5psx solid #2c3e50;">
             <div class="container">
                 <a class="navbar-brand" href="#page-top">星駆水族館 | Hoshikake Aquarium</a>
+                
                 <button class="navbar-toggler text-uppercase font-weight-bold bg-primary rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style="background-color: #3498db;">
                     Menu
                     <i class="fas fa-bars"></i>
@@ -37,11 +38,11 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
                     </ul>
-                </div>
+                </div> 
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="bg-primary  text-center">
+        <header class="bg-primary  text-center" >
             <img src="./assets/img/head_img.jpg" style="width: 100%;">
             <div class="container d-flex align-items-center flex-column">
                 
@@ -54,6 +55,7 @@
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <section class="page-section bg-primary mb-0" id="about">
                     <div class="divider-custom-line"></div>
                 </div>
 -->
@@ -64,31 +66,34 @@
                     説明説明説明説明説明説明説明説明説明説明説明説明
                 </p>
             </div>
+
+            <p>
+
+            </p>
+
         </header>
         <!-- Portfolio Section-->
         <!-- About Section-->
-        <section class="page-section bg-primary mb-0" id="about">
             <div class="container">
                 <!-- About Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+
+                <div class="animated bounceInDown">
+
+                </div>
                 
                 <div class="contents">
                     <div class="svg-wrapper">
-                
-                
-<!--
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
--->
                 <div class="text-center mt-4">
                 </div>
             </div>
         </section>
+        <!-- Aboutセクション終わり -->
+
+
+
         <!-- Footer-->
-        <footer class="footer text-center">
+        <footer class="footer full-width">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 mb-5 mb-lg-0">
@@ -98,16 +103,17 @@
                         <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
                         <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
                     </div>
+
+                    <div style="margin-top: 15px; text-align:right;">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102981.74398714693!2d136.17924846085526!3d36.235133338835354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8efd2ba2fe767%3A0xaccfd83b4273bac5!2z5pel5pys44CB56aP5LqV55yM44GC44KP44KJ5biC!5e0!3m2!1sja!2snl!4v1625970514974!5m2!1sja!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <!-- googleマップ埋め込み -->
+                    </div>
                     <!-- Footer About Text-->
                     <div class="col-lg-4">
                     </div>
                 </div>
             </div>
         </footer>
-        <!-- Copyright -->
-        <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; Music Core SiteTeam 2021</small></div>
-        </div>
         <!-- Portfolio Modals-->
         <!-- Portfolio Modal 1-->
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
